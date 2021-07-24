@@ -1,0 +1,233 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color-primary: #2196f3;
+  --accent-color-secondary: #ffffff;
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+/*Header*/
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  background-color: var(--accent-color-secondary);
+}
+
+.logo {
+  color: var(--accent-color-primary);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-header {
+  color: #000000;
+}
+
+.header-nav-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color-primary);
+}
+
+.header-nav-link-current {
+  color: var(--accent-color-primary);
+  text-decoration: none;
+}
+
+.header-contacts-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--accent-color-primary);
+}
+
+/*Main contect*/
+
+/*Hero*/
+
+.hero {
+  background-color: var(--footer-background-color);
+  align-items: center;
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--accent-color-secondary);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-family: inherit;
+  background-color: var(--accent-color-primary);
+  color: var(--accent-color-secondary);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+
+/*Preferences*/
+
+.preferences-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.preferences-description {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/*About us*/
+
+.about-us-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/*Our team*/
+
+.team {
+  background-color: var(--secondary-background-color);
+}
+
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.team-member-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-member-description {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: var(--footer-background-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.72;
+}
+
+.logo-footer {
+  color: var(--accent-color-secondary);
+}
+
+address {
+  font-family: inherit;
+  color: var(--accent-color-secondary);
+  font-style: normal;
+}
+.footer-contacts-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color-secondary);
+}
+
+/*Potrfolio page content*/
+
+/*Portfolio buttons*/
+
+.portfolio-button-primary {
+  font-family: inherit;
+  color: var(--accent-color-secondary);
+  background-color: var(--accent-color-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.62;
+  text-align: center;
+}
+
+.portfolio-button-secondary {
+  font-family: inherit;
+  color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.62;
+  text-align: center;
+}
+
+.portfolio-button-secondary:hover,
+.portfolio-button-secondary:focus {
+  color: var(--accent-color-secondary);
+  background-color: var(--accent-color-primary);
+}
+
+/*Portfolio cards*/
+
+.portfolio-card-link {
+  text-decoration: none;
+}
+
+.portfolio-card-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-card-description {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
