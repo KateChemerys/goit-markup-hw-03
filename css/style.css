@@ -45,7 +45,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
 }
 
 .visually-hidden{
@@ -187,7 +186,6 @@ header .container {
 
 .preferences .list {
   display: flex;
-  outline: 2px solid tomato;
   
 }
 
@@ -272,7 +270,6 @@ border-radius: 0px 0px 4px 4px;
 
 .team-member-part{
   padding: 30px;
-  outline: 1px solid tomato;
 }
 
 .team-member-title {
